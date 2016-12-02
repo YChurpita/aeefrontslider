@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/aeefrontsl.css" type="text/css">
+        <script type="text/javascript"  src="js/jquery-2.0.0.js"></script>
+        <script type="text/javascript" src="js/aeefrontsl.js"></script>
+    </head>
+    <body>
+        <div class="aee-front-slider">
+ 
+            
+            <div class="aee-front-slider-block">
+            <div class="aee-front-left-btn-block" onclick="aeefrontSl.onClickLR('right')" ></div>  
+            
+            <div class="aee-front-right-btn-block" onclick="aeefrontSl.onClickLR('left')" ></div>       
+                
+               <div id="aee-front-slide-line" class="aee-front-slide-line"> 
+                <div id="aee-front-slide1"  class="aee-front-slide" id="aee-front-slide-1" >
+                    <img id="aee-front-slide-fon1" class="aee-front-slide-fon" src="img\1.jpg" alt="foto">
+                    <img id="aee-front-slide-logo1" class="aee-front-slide-logo" src="img\1_1.png" alt="foto">
+                    <a  target="_blank" rel="external" id="aee-front-slide-text1" href="http://www.energycongress.com/" class="aee-front-slide-text">40-й Всемирный Энергетический Конгресс,<br> 27-29 сентября 2017 года, Атланта, США</a>       
+                </div>    
+                
+                <div id="aee-front-slide2"  class="aee-front-slide" id="aee-front-slide-2" >
+                    <img id="aee-front-slide-fon2" class="aee-front-slide-fon" src="img\2.jpg" alt="foto">
+                    <img id="aee-front-slide-logo2" class="aee-front-slide-logo" src="img\2_2.png" alt="foto">
+                    <a  target="_blank" rel="external" id="aee-front-slide-text2" href="http://www.energyevent.com/" class="aee-front-slide-text">35-й Конгресс Энергетического Менеджмента<br> (Западное Побережье),<br>7-8 июня 2017 года, Лонг Бич, США</a>       
+                </div> 
+                
+                <div id="aee-front-slide3"  class="aee-front-slide" id="aee-front-slide-3" >
+                    <img id="aee-front-slide-fon3" class="aee-front-slide-fon" src="img\3.jpg" alt="foto">
+                    <img id="aee-front-slide-logo3" class="aee-front-slide-logo" src="img\3_3.png" alt="foto">
+                    <a  target="_blank" rel="external"  id="aee-front-slide-text3" href="http://www.globalconevent.com/" class="aee-front-slide-text"> Глобалкон,<br> 22-23 марта 2017 года,<br> Филадельфия, США.</a>       
+                </div>  
+  
+                <div id="aee-front-slide4" class="aee-front-slide" id="aee-front-slide-4" >
+                    <img id="aee-front-slide-fon4" class="aee-front-slide-fon" src="img\4.jpg" alt="foto">
+                    <img  id="aee-front-slide-logo4" class="aee-front-slide-logo" src="img\4_4.png" alt="foto">
+                    <a  target="_blank" rel="external" id="aee-front-slide-text4" href="http://www.globalconevent.com/" class="aee-front-slide-text">Дата: 30 ноября 2016 года <br>Место проведения: отель «Премьер Палас»<br> Организатор Форума: газета «Юридическая практика». </a>       
+                </div>  
+               </div>    
+            </div>    
+            
+            
+            <div class="aee-front-btn-block">
+                <img name="aee-gor-btn1" src="img\grbtn1.png" alt="foto"  onclick="aeefrontSl.onHorClick('aee-gor-btn1')">
+                <img name="aee-gor-btn2" src="img\grbtn1.png" alt="foto"  onclick="aeefrontSl.onHorClick('aee-gor-btn2')">
+                <img name="aee-gor-btn3" src="img\grbtn1.png" alt="foto"  onclick="aeefrontSl.onHorClick('aee-gor-btn3')">
+                <img name="aee-gor-btn4" src="img\grbtn1.png" alt="foto"  onclick="aeefrontSl.onHorClick('aee-gor-btn4')" >
+            </div>  
+            
+        </div>
+                <script>aeefrontSl.init(); 
+                        aeefrontSl.onClickLR('left');
+                       var intervals = setInterval( function(){
+                            aeefrontSl.onClickLR('left');
+                        }, 10000);
+                </script> 
+    </body>
+</html>
